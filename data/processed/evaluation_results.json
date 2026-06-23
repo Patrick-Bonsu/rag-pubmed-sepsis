@@ -1,0 +1,112 @@
+[
+  {
+    "question":"What is the recommended first-line vasopressor for septic shock?",
+    "ground_truth":"Norepinephrine is the recommended first-line vasopressor for septic shock per Surviving Sepsis Campaign guidelines.",
+    "answer":"Based on the abstracts, the recommended first-line vasopressor for septic shock is norepinephrine.\n\n* According to PMID 40731360, \"The Surviving Sepsis Campaign (SSC) recommends norepinephrine as first-line vasopressor in patients with septic shock.\" (1)\n* This recommendation is also mentioned in PMID 41651598, which states that \"Carefully monitored peripheral vein administration of the first-line vasopressor, norepinephrine, appears safe.\" (2)\n\nTherefore, the answer is norepinephrine.\n\nReferences:\n(1) PMID: 40731360\n(2) PMID: 41651598",
+    "faithfulness":0.9,
+    "answer_relevancy":0.8,
+    "context_precision":0.8,
+    "faith_reason":"0.9\n\nThe answer is mostly faithful to the provided source context as it accurately cites two references that support the recommendation of norepinephrine as the first-line vasopressor for septic shock.",
+    "relev_reason":"0.8\n\nThe answer directly addresses the question by citing two relevant references that support the recommendation of norepinephrine as the first-line vasopressor for septic shock, but could be improved with a brief summary or explanation of why norepinephrine is preferred over other options.",
+    "prec_reason":"0.8\n\nThe majority of the retrieved context directly addresses the recommended first-line vasopressor for septic shock, specifically mentioning norepinephrine as the preferred option in several studies and guidelines."
+  },
+  {
+    "question":"What is the Sepsis-3 definition of septic shock?",
+    "ground_truth":"Septic shock is defined as sepsis with circulatory and cellular\/metabolic dysfunction, requiring vasopressors to maintain MAP \u226565 mmHg and serum lactate >2 mmol\/L despite adequate fluid resuscitation.",
+    "answer":"Unfortunately, none of the provided abstracts mention the specific criteria for the Sepsis-3 definition of septic shock.\n\nHowever, I can provide some relevant information from the abstracts. The Sepsis-3 criteria are mentioned in Abstract 1 (PMID: 40671025) as an alternative to using ICD codes to define sepsis, and it is stated that \"the MIMIC-IV database offers a derived table based on Sepsis-3.0\". However, the specific definition of septic shock according to Sepsis-3 is not mentioned.\n\nThe abstracts do mention other definitions and criteria for sepsis and septic shock, such as the Phoenix Consensus (Abstract 3) and refractory septic shock (Abstracts 4 and 5), but these are not related to the Sepsis-3 definition.\n\nTherefore, I must answer that I don't have enough information to provide a specific answer to the question.",
+    "faithfulness":0.8,
+    "answer_relevancy":0.8,
+    "context_precision":0.8,
+    "faith_reason":"0.8\n\nThe answer is partially faithful as it correctly states that the Sepsis-3 criteria are mentioned in Abstract 1 but fails to provide the specific definition of septic shock according to Sepsis-3, instead mentioning other definitions and criteria for sepsis and septic shock.",
+    "relev_reason":"0.8\n\nThe answer attempts to address the question directly but ultimately concludes that it cannot provide a specific answer due to insufficient information in the provided abstracts.",
+    "prec_reason":"0.8\n\nThe context is mostly relevant as it includes references to Sepsis-3 definition and criteria for septic shock, but some articles focus on related topics such as pediatric sepsis definitions or refractory septic shock rather than the specific question about the Sepsis-3 definition of septic shock."
+  },
+  {
+    "question":"What initial fluid resuscitation volume is recommended in septic shock?",
+    "ground_truth":"Current guidelines recommend approximately 30 mL\/kg of intravenous crystalloid fluid within the first 3 hours of sepsis resuscitation.",
+    "answer":"Based on the abstracts provided, a reasonable initial fluid resuscitation volume for most patients with septic shock is approximately 30 mL\/kg with balanced crystalloids (PMID: 41651598) [1]. \n\n[1] PMID: 41651598 | 2026 | Clinics in chest medicine",
+    "faithfulness":0.9,
+    "answer_relevancy":0.8,
+    "context_precision":0.8,
+    "faith_reason":"0.9\n\nThe answer accurately cites a specific study (PMID: 41651598) to support its claim about initial fluid resuscitation volume for septic shock patients, but does not provide the full context or acknowledge that this is based on \"most patients\", which may limit its generalizability.",
+    "relev_reason":"0.8\n\nThe answer directly addresses the question by providing a specific initial fluid resuscitation volume recommendation for septic shock patients, but it could be more comprehensive in its response as it only cites one abstract and does not provide additional context or supporting information.",
+    "prec_reason":"0.8\n\nThe majority of the retrieved context directly addresses initial fluid resuscitation volumes in septic shock, but some articles focus on broader topics such as individualized fluid management strategies or adjunctive therapies."
+  },
+  {
+    "question":"What are the main criteria used in the SOFA score for sepsis diagnosis?",
+    "ground_truth":"The SOFA score assesses six organ systems: respiratory, coagulation, liver, cardiovascular, CNS, and renal function.",
+    "answer":"Unfortunately, I couldn't find any information on the specific criteria used in the SOFA score in the provided abstracts. The SOFA score is mentioned as part of the Sepsis-3.0 criteria (PMID: 40671025), but it does not provide details about what the specific components are.\n\nHowever, based on general knowledge and other sources, I can tell you that the SOFA score is a clinical scoring system used to assess the severity of organ dysfunction in sepsis. It evaluates six different organ systems:\n\n1. Respiratory: PaO2\/FiO2 ratio\n2. Cardiovascular: Mean arterial pressure\n3. Hepatic: Bilirubin level\n4. Coagulation: Platelet count\n5. Renal: Creatinine level (or urine output)\n6. Neurological: Glasgow Coma Scale\n\nBut I couldn't find this information in the provided abstracts.\n\nIf you need more specific details, I would recommend checking other sources or looking for additional research on the SOFA score criteria.",
+    "faithfulness":0.8,
+    "answer_relevancy":0.8,
+    "context_precision":0.8,
+    "faith_reason":"0.8\n\nThe answer makes claims that are directly supported by the context, but also introduces general knowledge about the SOFA score criteria not present in the provided abstracts.",
+    "relev_reason":"0.8\n\nThe answer provides a clear and accurate description of the SOFA score criteria, but it is incomplete because it relies on general knowledge rather than information from the provided abstracts, which were supposed to be the basis for the answer.",
+    "prec_reason":"0.8\n\nThe context includes several articles that mention or reference the SOFA score in relation to sepsis diagnosis, but most of them do not directly address the main criteria used in the SOFA score."
+  },
+  {
+    "question":"What is the role of lactate monitoring in sepsis management?",
+    "ground_truth":"Lactate is used as a marker of tissue hypoperfusion. Lactate clearance guides resuscitation adequacy, and persistent elevation is associated with worse outcomes.",
+    "answer":"Lactate monitoring should be interpreted as both a hemodynamic and metabolic biomarker (PMID: 41101140). Elevated lactate levels can reflect tissue hypoperfusion, but also metabolic reprogramming, immune activation, and mitochondrial dysfunction, particularly if persistent beyond 12 hours (PMID: 41101140). Clinical and experimental data suggest that hyperlactatemia must be contextualized with perfusion indices such as capillary refill time, ScvO2, or P(cv-a)CO2 to guide escalation of therapy, timely deescalation, and potential adjunctive interventions in septic shock (PMID: 41101140).\n\nIt is also mentioned that the ANDROMEDA-SHOCK trial validated the concept that CRT-guided resuscitation improved outcomes compared with lactate-guided therapy, highlighting the risk of overintervention when solely relying on lactate levels (PMID: 41101140).",
+    "faithfulness":0.9,
+    "answer_relevancy":0.8,
+    "context_precision":0.8,
+    "faith_reason":"0.9\n\nThe answer is mostly faithful to the provided source contexts, accurately summarizing key points from PMID: 41101140 regarding lactate monitoring as both a hemodynamic and metabolic biomarker, but it does not explicitly mention the limitations of relying solely on lactate levels for therapy escalation, which is also present in the context.",
+    "relev_reason":"0.8\n\nThe answer provides a clear and concise overview of lactate monitoring in sepsis management, including its role as both a hemodynamic and metabolic biomarker, but could be improved with more specific examples or clinical scenarios to illustrate its application.",
+    "prec_reason":"0.8\n\nThe context is highly relevant as it includes multiple articles discussing lactate monitoring in sepsis management, its interpretation, and its limitations, particularly in patients with cirrhosis or refractory septic shock."
+  },
+  {
+    "question":"What are the known adverse effects of norepinephrine in septic shock?",
+    "ground_truth":"Norepinephrine can cause peripheral vasoconstriction, limb ischemia, cardiac arrhythmias, and increased cardiac afterload.",
+    "answer":"According to abstract PMID: 40731360 (2025, Critical care), high doses of norepinephrine might have cardiac and immunological adverse effects and be associated with poorer outcomes. However, it does not specify what these adverse effects are.\n\nA more detailed answer can be found in the same abstract, which states that \"high-doses of norepinephrine\" may induce complications, but it is unclear from this statement alone what these complications are. \n\nTo better answer the question, I would look for an abstract that explicitly mentions the known adverse effects of norepinephrine in septic shock. Unfortunately, none of the provided abstracts provide a clear answer to this question.\n\nHowever, one of the mentioned abstracts (PMID: 40731360) does mention \"cardiotoxicity\" as one possible complication associated with high doses of norepinephrine.\n\nTherefore, I can say that cardiotoxicity is potentially one known adverse effect of norepinephrine in septic shock. \n\n(40718345, 40731360, 41193354, 41637486, and 41651598)",
+    "faithfulness":0.8,
+    "answer_relevancy":0.7,
+    "context_precision":0.8,
+    "faith_reason":"0.8\n\nThe answer is partially faithful as it only mentions cardiotoxicity as a potential adverse effect of high doses of norepinephrine, but does not provide a comprehensive list of all known adverse effects mentioned in the context.",
+    "relev_reason":"0.7\n\nThe answer provides some relevant information about potential adverse effects of norepinephrine in septic shock, but it is incomplete and relies on indirect references to abstracts rather than providing direct evidence or a clear summary of the known adverse effects.",
+    "prec_reason":"0.8\n\nThe context provides several articles that discuss septic shock management strategies, including the use of norepinephrine as a first-line vasopressor, but only one article directly mentions potential adverse effects of norepinephrine in septic shock."
+  },
+  {
+    "question":"When is vasopressin added to norepinephrine in septic shock treatment?",
+    "ground_truth":"Vasopressin is added when norepinephrine doses exceed 0.25-0.5 mcg\/kg\/min as a catecholamine-sparing strategy.",
+    "answer":"According to abstract PMID: 40731360 (2025 | Critical care (London, England)), vasopressin is suggested as a second-line vasopressor when the dose of norepinephrine exceeds 0.25-0.50 \u03bcg\/kg\/min in patients with septic shock, after excluding persistent hypovolemia and cardiac dysfunction.\n\n(40731360)",
+    "faithfulness":0.9,
+    "answer_relevancy":0.8,
+    "context_precision":0.8,
+    "faith_reason":"0.9\n\nThe answer is mostly faithful to the provided source context, as it accurately quotes the recommended threshold for norepinephrine dose (0.25-0.50 \u03bcg\/kg\/min) at which vasopressin is suggested as a second-line option in patients with septic shock, but does not provide additional information or context that would make it fully faithful.",
+    "relev_reason":"0.8\n\nThe answer directly addresses the specific scenario in which vasopressin is added to norepinephrine treatment in septic shock, but does not provide any additional context or explanation beyond a single reference citation.",
+    "prec_reason":"0.8\n\nThe context is highly relevant as it includes multiple studies discussing the use of vasopressin in septic shock treatment, including its addition to norepinephrine, potential benefits, and limitations."
+  },
+  {
+    "question":"What balanced crystalloid solutions are preferred for sepsis fluid resuscitation?",
+    "ground_truth":"Balanced crystalloids such as lactated Ringer's solution and Plasma-Lyte are preferred over normal saline to avoid hyperchloremic metabolic acidosis.",
+    "answer":"Based on the provided abstracts, I can only find information about one type of balanced crystalloid solution being mentioned as \"reasonable\" or recommended for initial fluid resuscitation:\n\n\"...initial fluid resuscitation of roughly 30 mL\/kg with balanced crystalloids is reasonable for most patients.\" (PMID: 41651598)\n\nHowever, the abstract does not specify which brand or formulation of balanced crystalloids are preferred. It simply mentions \"balanced crystalloids,\" without providing further details.\n\nTherefore, I must conclude that based on these abstracts alone, I cannot provide a more specific answer to the question about what balanced crystalloid solutions are preferred for sepsis fluid resuscitation.\n\n(41651598)",
+    "faithfulness":0.8,
+    "answer_relevancy":0.7,
+    "context_precision":0.8,
+    "faith_reason":"0.8\n\nThe answer is partially faithful as it accurately cites a specific claim from the source context but fails to provide more detailed information about preferred balanced crystalloid solutions, which is not explicitly mentioned in the provided abstracts.",
+    "relev_reason":"0.7\n\nThe answer attempts to address the question but ultimately concludes that it cannot provide a more specific answer due to limitations in the provided abstracts, indicating some effort to engage with the question but also significant uncertainty and lack of specificity.",
+    "prec_reason":"0.8\n\nThe majority of the retrieved context directly addresses balanced crystalloid solutions for sepsis fluid resuscitation, but some articles focus more broadly on sepsis management strategies and individualized care approaches."
+  },
+  {
+    "question":"How is fluid responsiveness assessed in critically ill sepsis patients?",
+    "ground_truth":"Fluid responsiveness is assessed using dynamic measures such as pulse pressure variation, passive leg raise test, and end-expiratory occlusion test.",
+    "answer":"According to the abstracts, fluid responsiveness can be assessed through dynamic measures of fluid responsiveness (PMID: 41651598). This includes ongoing multimodal assessment that integrates various parameters such as blood pressure, lactate clearance, and capillary refill time.\n\nAdditionally, a review in Current Opinion in Critical Care (PMID: 41637486) mentions the use of \"dynamic assessments\" for prognostic tools incorporating fluid therapy in patients with cirrhosis. While it doesn't specify how these dynamic assessments are performed, it implies that some form of dynamic evaluation is used to assess fluid responsiveness.\n\nIt's worth noting that the abstracts do not provide a comprehensive overview of all methods used to assess fluid responsiveness in critically ill sepsis patients. Further investigation into specific studies or guidelines may be necessary for a more thorough understanding.",
+    "faithfulness":0.8,
+    "answer_relevancy":0.7,
+    "context_precision":0.8,
+    "faith_reason":"0.8\n\nThe answer is mostly faithful to the provided source context, as it accurately cites specific studies (PMID: 41651598 and PMID: 41637486) that support the use of dynamic measures for assessing fluid responsiveness, but could be more precise in its description and does not fully capture the nuances of each study.",
+    "relev_reason":"0.7\n\nThe answer provides some relevant information on dynamic measures of fluid responsiveness, but it lacks specificity and relies heavily on abstracts that do not provide a comprehensive overview of the topic.",
+    "prec_reason":"0.8\n\nThe majority of the retrieved context directly addresses aspects related to fluid responsiveness in critically ill sepsis patients, including resuscitation targets, fluid therapy, and vasopressor use, but some articles focus more broadly on septic shock management or specific patient populations."
+  },
+  {
+    "question":"What are the mortality outcomes associated with septic shock in ICU patients?",
+    "ground_truth":"Septic shock carries a hospital mortality rate of approximately 40-50%, varying by severity, organ dysfunction, and patient comorbidities.",
+    "answer":"The question about mortality outcomes associated with septic shock in ICU patients can be partially answered based on the information provided by two of the abstracts.\n\nFirstly, from [PMID: 41514386], we learn that a subset of patients with septic shock fails to respond to treatment and progresses into refractory septic shock with an associated high morbidity and mortality. However, this study focuses on refractory septic shock rather than overall mortality outcomes.\n\nSecondly, from [PMID: 41637486], we find information relevant to the question. This review discusses the management of septic shock in patients with cirrhosis, highlighting that septic shock in this population presents unique diagnostic and therapeutic challenges due to underlying hemodynamic changes and immune dysfunction. Although the article does not provide a direct answer to the mortality outcomes question for all ICU patients with septic shock, it acknowledges that conventional approaches to sepsis management may be insufficient or unreliable in this specific population.\n\nUnfortunately, there is no concrete data on overall mortality outcomes associated with septic shock in general ICU patients available within these abstracts.",
+    "faithfulness":0.8,
+    "answer_relevancy":0.6,
+    "context_precision":0.8,
+    "faith_reason":"0.8\n\nThe answer accurately identifies relevant information from two abstracts but also acknowledges limitations in providing a direct answer to the question, showing some awareness of the context's boundaries.",
+    "relev_reason":"0.6\n\nThe answer partially addresses the question by providing some relevant information on mortality outcomes associated with septic shock in ICU patients, but it also acknowledges that there is no concrete data available to directly answer the question.",
+    "prec_reason":"0.8\n\nThe majority of the retrieved context is relevant to the question, as it discusses various aspects of septic shock in ICU patients, including mortality outcomes, management strategies, and specific considerations for certain populations such as those with cirrhosis or neonates."
+  }
+]

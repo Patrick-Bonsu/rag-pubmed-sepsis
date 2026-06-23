@@ -1,0 +1,9 @@
+gradio
+biopython
+chromadb
+sentence-transformers
+langchain-core
+langchain-ollama
+pandas
+tqdm
+torch

@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+
+# Environments
+.env
+.venv/
+
+# Data — raw abstracts fetched at runtime, not tracked
+data/raw/
+
+# ChromaDB — rebuilt by running index.py, not tracked
+chroma_db/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
